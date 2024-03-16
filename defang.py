@@ -14,7 +14,7 @@ def defang_ip_addresses(ip_addresses):
     return defanged_ips
 
 
-input_ip_addresses = input('[*]Enter the IP addresses: ')
+input_ip_addresses = input('[*]Enter the IP addresses: \n')
 input_ip_addresses = input_ip_addresses.split(' ')
 defanged_ips = defang_ip_addresses(input_ip_addresses)
 
